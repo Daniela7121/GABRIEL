@@ -250,7 +250,7 @@ class AdministrativeModule(QWidget):
         dialog.setWindowTitle(title)
         dialog.setFixedSize(400, 350)
         layout = QVBoxLayout()
-        puestos = ["Recepcionista", "Secretaria", "Contador", "Gerente", "Administrador"]
+        puestos = ["Administrativo", "Paciente", "Doctor", "Administrador"]
         labels = ["Nombre:", "Puesto:", "Teléfono:", "Email:"]
         dialog.fields = []
         for i, label_text in enumerate(labels):
